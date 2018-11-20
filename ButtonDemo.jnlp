@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp href="ButtonDemo.jnlp" spec="6.0+">
+
+    <!-- This describes the app. -->
+    <application-desc main-class="ButtonDemo">
+    </application-desc>
+
+    <!-- Resources required by app. -->
+    <resources>
+        <!-- This specifies ButtonDemo's jar file. -->
+        <jar href="buttonDemo.jar" main="true"/>
+
+        <!-- Specify a minimum version of Java -->
+        <java version="1.8+"/>
+    </resources>
+
+    <!-- Information related to the app -->
+    <information>
+        <!-- this info is shown in the cache list of the Java control panel -->
+        <title>ButtonDemo Application</title>
+        <vendor>Self</vendor>
+
+        <!-- the following allows offline execution -->
+        <offline-allowed/>
+    </information>
+    
+</jnlp>
